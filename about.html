@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CarServ - Car Repair HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                    <small>91/1346-7 หมู่ 11 ซอย 44 ถนน รามอินทรา, กรุงเทพ</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <small class="far fa-clock text-primary me-2"></small>
+                    <small>Mon - Fri : 08.00 AM - 09.00 PM</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>02-9488680</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"><img class="width="80" height="60"" src="img/logo2.jpg" alt="Image"></h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">หน้าแรก</a>
+                <a href="about.html" class="nav-item nav-link">เกี่ยวกับAPITECH</a>
+                <a href="service.html" class="nav-item nav-link">บริการ</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">สินค้า</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        
+                        <a href="team.html" class="dropdown-item">Diagnosis series</a>
+                        <a href="team2.html" class="dropdown-item">เครื่องมือวัดค่าความต้านทานภายในแบตเตอรี่</a>
+                        <a href="team3.html" class="dropdown-item">เครื่องทดสอบความต้านทานความเป็นฉนวน</a>
+                        <a href="booking.html" class="dropdown-item">API Tech DynoLab</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">ติดต่อ</a>
+            </div>
+            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/carousel-bg-1.jpg);">
+        <div class="container-fluid page-header-inner py-5">
+            <div class="container text-center">
+                <h1 class="display-3 text-white mb-3 animated slideInDown">About Us</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center text-uppercase">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                        <li class="breadcrumb-item text-white active" aria-current="page">About</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Service Start -->
+    <!-- <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="d-flex py-5 px-4">
+                        <i class="fa fa-certificate fa-3x text-primary flex-shrink-0"></i>
+                        <div class="ps-4">
+                            <h5 class="mb-3">Quality Servicing</h5>
+                            <p>Diam dolor diam ipsum sit amet diam et eos erat ipsum</p>
+                            <a class="text-secondary border-bottom" href="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="d-flex bg-light py-5 px-4">
+                        <i class="fa fa-users-cog fa-3x text-primary flex-shrink-0"></i>
+                        <div class="ps-4">
+                            <h5 class="mb-3">Expert Workers</h5>
+                            <p>Diam dolor diam ipsum sit amet diam et eos erat ipsum</p>
+                            <a class="text-secondary border-bottom" href="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-flex py-5 px-4">
+                        <i class="fa fa-tools fa-3x text-primary flex-shrink-0"></i>
+                        <div class="ps-4">
+                            <h5 class="mb-3">Modern Equipment</h5>
+                            <p>Diam dolor diam ipsum sit amet diam et eos erat ipsum</p>
+                            <a class="text-secondary border-bottom" href="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Service End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 pt-4" style="min-height: 400px;">
+                    <div class="position-relative h-100 wow fadeIn" data-wow-delay="0.1s">
+                        <img class="position-absolute img-fluid w-100 h-300" src="img/about.jpg" style="object-fit: cover;" alt="">
+                        <div class="position-absolute top-0 end-0 mt-n4 me-n4 py-4 px-5" style="background: rgba(0, 0, 0, .08);">
+                            <h1 class="display-4 text-white mb-0">19 <span class="fs-4">Years</span></h1>
+                            <h4 class="text-white">Experience</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h6 class="text-primary text-uppercase"></h6>
+                    <h1 class="mb-4"><span class="text-primary">ApiTech EV</span> ประวัติความเป็นมาของ เอพีไอเทคอีวี </h1>
+                    <p class="mb-4">
+            
+                        • ขอขอบคุณลูกค้า พันธมิตร และพนักงาน
+                        ApiTech ขอขอบคุณลูกค้าทุกท่านที่ให้การสนับสนุน พันธมิตรที่ร่วมพัฒนาไปด้วยกัน และพนักงานที่ร่วมสร้างความแข็งแกร่งให้กับองค์กร
+                         • คำขวัญของบริษัท:
+                        “มุ่งมั่นสู่ความเป็นเลิศด้านสินค้าและบริการ”
+                         • เชิญติดตามและร่วมเป็นส่วนหนึ่งกับเรา
+                        สำหรับผู้ที่สนใจข้อมูลเพิ่มเติม สามารถติดตามข่าวสารและบริการของเราได้ที่
+                         • Facebook: ApiTech
+                         • LINE: @apitech
+                         • เว็บไซต์: www.apitech.com
+                        
+                        ApiTech – พันธมิตรแห่งอนาคตของยานยนต์ไฟฟ้า
+                        
+                        🚗⚡ พร้อมขับเคลื่อนอนาคตไปด้วยกัน!</p>
+                    <div class="row g-4 mb-3 pb-3">
+                        <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="d-flex">
+                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1" style="width: 45px; height: 45px;">
+                                    <span class="fw-bold text-secondary">01</span>
+                                </div>
+                                <div class="ps-3">
+                                    <h6>ข้อมูลพื้นฐานของบริษัท</h6>
+                                    <span>1. ข้อมูลพื้นฐานของบริษัท
+                                        • ชื่อบริษัท: บริษัท เอพีไอเทค จำกัด (ApiTech)
+                                        • ปีที่ก่อตั้ง: พ.ศ. 2549
+                                        • ผู้ก่อตั้ง / ผู้บริหาร: นายปิยณัฐ อภัยศรี
+                                        • ที่ตั้งสำนักงานหลัก:
+                                       บริษัท เอ.พี.ไอ.เทค จำกัด (สำนักงานใหญ่)
+                                       91/1346-7 ซอยนวลจันทร์ 56 แยก 1 แขวงนวลจันทร์
+                                       เขตบึงกุ่ม กรุงเทพมหานคร 10230
+                                       โทร. 02-9488680
+                                        • ประเภทธุรกิจและสินค้าหรือบริการหลัก:
+                                       บริษัทดำเนินธุรกิจด้าน การผลิตและจำหน่ายอะไหล่ยานยนต์และอะไหล่ตกแต่งยานยนต์ รวมถึงการพัฒนาเครื่องมือและเทคโนโลยีที่เกี่ยวข้องกับ ยานยนต์ไฟฟ้า (EV)
+                                        </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="d-flex">
+                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1" style="width: 45px; height: 45px;">
+                                    <span class="fw-bold text-secondary">02</span>
+                                </div>
+                                <div class="ps-3">
+                                    <h6>จุดเริ่มต้นและแรงบันดาลใจ</h6>
+                                    <span>• ที่มาของการก่อตั้งบริษัท
+                                        บริษัท เอพีไอเทค จำกัด ก่อตั้งขึ้นจาก ความรักและความหลงใหลในรถมอเตอร์ไซค์ ของผู้ก่อตั้ง ซึ่งเชื่อว่าการทำธุรกิจที่เกิดจากความชอบและความเชี่ยวชาญ จะนำมาซึ่งคุณค่าและความยั่งยืน จึงเป็นจุดเริ่มต้นของการเข้าสู่อุตสาหกรรมอะไหล่ยานยนต์
+                                         • โอกาสทางธุรกิจและปัญหาที่พบ
+                                        เมื่อยานยนต์ไฟฟ้าได้รับการสนับสนุนจากภาครัฐและเริ่มได้รับความนิยมมากขึ้น แต่กลับพบว่า ร้านซ่อมและเครื่องมือในการซ่อมบำรุงยังมีไม่เพียงพอ ทำให้เกิดช่องว่างในตลาดและเป็นโอกาสให้บริษัทมุ่งพัฒนาสินค้าและบริการที่รองรับอุตสาหกรรมนี้
+                                         • เป้าหมายในช่วงแรก
+                                        ในช่วง 3 ปีแรก บริษัทมุ่งเน้น การพัฒนาเครื่องมือและอะไหล่สำหรับยานยนต์ไฟฟ้า ควบคู่กับการสร้างเครือข่ายศูนย์บริการซ่อมบำรุงเพื่อรองรับการเติบโตของตลาด
+                                        </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="d-flex">
+                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1" style="width: 45px; height: 45px;">
+                                    <span class="fw-bold text-secondary">03</span>
+                                </div>
+                                <div class="ps-3">
+                                    <h6>การเติบโตและพัฒนาการ</h6>
+                                    <span>
+                                        • เหตุการณ์สำคัญที่ช่วยให้บริษัทเติบโต
+                                       ด้วยประสบการณ์กว่า 20 ปีในการพัฒนา เครื่องมือซ่อมบำรุงและอะไหล่ยานยนต์ บริษัทจึงสามารถต่อยอดสู่การ พัฒนานวัตกรรมสำหรับยานยนต์ไฟฟ้า ได้อย่างแข็งแกร่ง
+                                        • การพัฒนาเทคโนโลยีและการขยายตลาด
+                                       ApiTech มีเครือข่าย ศูนย์บริการและสถาบันการศึกษาทั่วประเทศ ที่ช่วยส่งเสริมองค์ความรู้ด้านเทคโนโลยียานยนต์ไฟฟ้า รวมถึงการพัฒนาเครื่องมือที่สามารถตอบโจทย์ช่างซ่อมและเจ้าของรถ
+                                        • การปรับตัวตามแนวโน้มอุตสาหกรรม
+                                       ปัจจุบันผู้บริโภคให้ความสำคัญกับ ธุรกิจสีเขียวและการลดมลพิษ ทำให้ตลาดยานยนต์ไฟฟ้ามีแนวโน้มเติบโตต่อเนื่อง ApiTech จึงมุ่งพัฒนาเทคโนโลยีให้สอดคล้องกับความต้องการของตลาด
+                                       </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="d-flex">
+                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1" style="width: 45px; height: 45px;">
+                                    <span class="fw-bold text-secondary">04</span>
+                                </div>
+                                <div class="ps-3">
+                                    <h6>วิสัยทัศน์และพันธกิจ</h6>
+                                    <span>
+                                        
+                        • วิสัยทัศน์ (Vision):
+                       “มุ่งมั่นสู่ความเป็นเลิศด้านการบริการ และเป็นผู้นำในตลาดอะไหล่และเครื่องมือสำหรับยานยนต์ไฟฟ้า”
+                        • พันธกิจ (Mission):
+                        • เป็นผู้พัฒนา อะไหล่และเครื่องมือที่เกี่ยวข้องกับยานยนต์ไฟฟ้า อย่างครบวงจร
+                        • สร้างเครือข่าย ศูนย์บริการซ่อมบำรุงที่มีมาตรฐานสูง
+                        • สนับสนุน การศึกษาและการพัฒนาบุคลากรด้านยานยนต์ไฟฟ้า
+                                       </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="d-flex">
+                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1" style="width: 45px; height: 45px;">
+                                    <span class="fw-bold text-secondary">05</span>
+                                </div>
+                                <div class="ps-3">
+                                    <h6>ค่านิยมองค์กร (Core Values)</h6>
+                                    <span>
+                                        • บริการเป็นเลิศ: มุ่งมั่นให้บริการด้วยมาตรฐานสูงสุด
+                                        • ซื่อสัตย์และโปร่งใส: ยึดมั่นในความซื่อสัตย์ต่อลูกค้าและพันธมิตร
+                                        • นวัตกรรมและคุณภาพ: พัฒนาผลิตภัณฑ์และบริการด้วยเทคโนโลยีล้ำสมัย
+                                        • ความใส่ใจลูกค้า: ตอบสนองความต้องการของลูกค้าอย่างรวดเร็วและมีประสิทธิภาพ    
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="d-flex">
+                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1" style="width: 45px; height: 45px;">
+                                    <span class="fw-bold text-secondary">06</span>
+                                </div>
+                                <div class="ps-3">
+                                    <h6> ความสำเร็จและการยอมรับ</h6>
+                                    <span>
+                                    • รางวัลและมาตรฐานที่ได้รับ
+                                        ApiTech ให้ความสำคัญกับการพัฒนาบุคลากรและนวัตกรรม ซึ่งเป็นหัวใจของความสำเร็จของบริษัท
+                                        • การเติบโตทางธุรกิจ
+                                         ด้วยแนวโน้มการขยายตัวของตลาดยานยนต์ไฟฟ้า ApiTech ตั้งเป้า เพิ่มยอดขายเครื่องมือซ่อมบำรุงและอะไหล่ EV ตามการเติบโตของตลาด
+                       
+                                       </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="d-flex">
+                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1" style="width: 45px; height: 45px;">
+                                    <span class="fw-bold text-secondary">07</span>
+                                </div>
+                                <div class="ps-3">
+                                    <h6>ทิศทางในอนาคต</h6>
+                                    <span>
+                                        
+                        • แผนการพัฒนา
+                        • ขยายธุรกิจไปยัง กลุ่มประเทศอาเซียน
+                        • ปรับปรุงผลิตภัณฑ์และพัฒนาเทคโนโลยีอย่างต่อเนื่อง
+                        • แสวงหาตลาดใหม่ และสร้างพันธมิตรทางธุรกิจ
+                        • เป้าหมายทางธุรกิจ
+                       ตั้งเป้ายอดขาย ชุดเครื่องมือสำหรับยานยนต์ไฟฟ้ามากกว่า 100 ชุดต่อปี
+                                       </span>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        
+                        
+                    </div>
+                    <a href="" class="btn btn-primary py-3 px-5">Read More<i class="fa fa-arrow-right ms-3"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Fact Start -->
+    <div class="container-fluid fact bg-dark my-5 py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
+                    <i class="fa fa-check fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
+                    <p class="text-white mb-0">Years Experience</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
+                    <i class="fa fa-users-cog fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
+                    <p class="text-white mb-0">Expert Technicians</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
+                    <i class="fa fa-users fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
+                    <p class="text-white mb-0">Satisfied Clients</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
+                    <i class="fa fa-car fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
+                    <p class="text-white mb-0">Compleate Projects</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fact End -->
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-primary text-uppercase">// Our Technicians //</h6>
+                <h1 class="mb-5">Our Expert Technicians</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                            <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h5 class="fw-bold mb-0">Full Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                            <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h5 class="fw-bold mb-0">Full Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                            <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h5 class="fw-bold mb-0">Full Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                            <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h5 class="fw-bold mb-0">Full Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+        
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>91/1346-7 ซอยนวลจันทร์ 56 แยก1 แขวงนวลจันทร์
+                        เขตบึงกุ่ม กรุงเทพมหนคร 10230</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>02-9488680</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>เลขประจำตัวผู้เสียภาษี
+                        0105549047992</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Opening Hours</h4>
+                    <h6 class="text-light">Monday - Saturday:</h6>
+                    <p class="mb-4">08.30 AM - 17.30 PM</p>
+                    <h6 class="text-light">Saturday - Sunday:</h6>
+                    <p class="mb-0">09.00 AM - 12.00 PM</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="">Diagnostic Test</a>
+                    <a class="btn btn-link" href="">Engine Servicing</a>
+                    <a class="btn btn-link" href="">Tires Replacement</a>
+                    <a class="btn btn-link" href="">Oil Changing</a>
+                    <a class="btn btn-link" href="">Vacuam Cleaning</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FQAs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
